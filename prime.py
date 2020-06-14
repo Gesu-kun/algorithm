@@ -31,7 +31,3 @@ def prime_number_enumerate(maximum):
         if sieve[x]:
             sieved(x)
     return [prime for prime, is_prime in enumerate(sieve) if is_prime]
-
-
-if __name__ == "__main__":
-    print(prime_factorize(1296))
